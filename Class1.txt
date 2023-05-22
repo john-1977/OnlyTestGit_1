@@ -9,4 +9,9 @@ public:
 			cout << i ;
 		}
 	}
+	
+	double Adder (double a, double b)
+	{
+		return a + b;
+	}
 }
