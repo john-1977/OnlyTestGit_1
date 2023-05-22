@@ -17,4 +17,10 @@ class MyClass2
 	{
 		return a - b;
 	}
+	
+	template<typeclass T>
+	T Div (T& a, T& b)
+	{
+		return a/b;
+	}
 }
