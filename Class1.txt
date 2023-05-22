@@ -3,6 +3,9 @@ class MyClass1
 public:
 	void Fun1()
 	{ 
-		
+		for (auto i : collection)
+		{
+			cout << i ;
+		}
 	}
 }
