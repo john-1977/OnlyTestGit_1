@@ -5,8 +5,8 @@ public:
 	{ 
 		for (auto i : collection)
 		{
-			cout << i ;
 			cout << "Some header";
+			cout << i ;
 		}
 	}
 }
