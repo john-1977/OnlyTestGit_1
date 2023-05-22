@@ -18,8 +18,15 @@ class MyClass2
 		return a - b;
 	}
 	
+
 	void CleanMemory()
 	{
 		Delete something...
+	}
+	
+	template<typeclass T>
+	T Div (T& a, T& b)
+	{
+		return a/b;
 	}
 }
