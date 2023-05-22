@@ -6,5 +6,15 @@ class MyClass2
 		return 777;
 	}
 	
+	template<typename T>
+	T	Adder (const T& a, const T& b)
+	{
+		return a + b;
+	}
 	
+	template<typename T>
+	T	Sub (const T& a, const T& b)
+	{
+		return a - b;
+	}
 }
