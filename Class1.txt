@@ -10,8 +10,5 @@ public:
 		}
 	}
 	
-	double Adder (double a, double b)
-	{
-		return a + b;
-	}
+	
 }
