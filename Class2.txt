@@ -1,0 +1,8 @@
+class MyClass2
+{
+
+	int Fun2_1()
+	{ 
+		return 777;
+	}
+}
