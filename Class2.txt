@@ -17,4 +17,9 @@ class MyClass2
 	{
 		return a - b;
 	}
+	
+	void CleanMemory()
+	{
+		Delete something...
+	}
 }
