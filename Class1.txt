@@ -1,6 +1,11 @@
 class MyClass1
 {
 public:
+	double Multiplex (double a, double b)
+	{
+		return a * b;
+	}
+	
 	void Fun1()
 	{ 
 		for (auto i : collection)
@@ -10,17 +15,5 @@ public:
 		}
 	}
 	
-	double Adder (double a, double b)
-	{
-		return a + b;
-	}
 	
-	double Sub (double a, double b)
-	{
-		return a - b;
-	}
-	double Div (double a, double b)
-	{
-		return a / b;
-	}
 }
